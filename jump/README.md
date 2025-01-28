@@ -15,11 +15,11 @@ Replace `[directory_name]` with the name of the directory .
 ## Quick-Install
 
 ```bash
-git clone git@github.com:ACHUX21/scripts.git 
+git clone https://github.com/ACHUX21/ScRiPt.git
 cd scripts/jump
 sudo chmod +x *.sh
 sudo apt install fzf -y
-sudo./setup.sh 
+sudo ./setup.sh 
 sudo echo "alias jump='. j'" >> ~/.bashrc 
 sudo bash
 ```
